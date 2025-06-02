@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Pc() {
   return (
-    <div className="p-5 m-0 flex justify-content-center items-center absolute top-0 left-0 pt-20">
+    <div className="p-5 m-0 justify-content-center items-center fixed top-0 left-0 pt-20 z-10 animate-fade-bottom">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" className="md:text-white w-12 md:w-18 lg:w-24">
                 <mask id="ipTComputer0">
                     <g fill="none" stroke="#fff" stroke-width="4">

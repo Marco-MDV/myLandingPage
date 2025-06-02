@@ -4,7 +4,7 @@ const companies = [
 ];
 
 
-export default function Companies() {
+export default function Companies({isActive}) {
   return (
     <div className='h-full w-full flex justify-around md:justify-between items-center flex-wrap gap-5 px-5'>
         {companies.map((company, index) => (
@@ -12,7 +12,7 @@ export default function Companies() {
             <figure className="w-64 h-36">
                 <img src={company.logo} alt={`${company.name} logo`} className='w-full h-full object-cover'/>
             </figure>
-            <h3 className='text-xl font-semibold bg-black text-white w-full p-2'><a href={company.link}>{company.name}</a></h3>
+            <h3 className={`text-xl font-semibold bg-black text-white w-full p-2 ${isActive?" animate-fade-left ":""}`}><a href={company.link}>{company.name}</a></h3>
           </div>
         ))}
     </div>
