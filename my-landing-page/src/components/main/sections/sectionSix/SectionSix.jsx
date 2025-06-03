@@ -38,7 +38,7 @@ export default function SectionSix({observe, isActive}) {
     <section ref={observe} className="w-full h-svh snap-start  flex justify-between items-center flex-col md:flex-row p-5  md:gap-8">
       <div className="flex flex-col justify-around items-center h-full gap-3">
         <h3 className={`text-start text-6xl md:text-7xl font-bold font-mono ${isActive?" animate-fade-bottom ":""}`}>My projects</h3>
-        <figure className="w-[300px] h-[300px] md:w-[300px] md:h-[400px] lg:w-[500px] lg:h-[500px]">
+        <figure className="hidden md:flex w-[300px] h-[300px] md:w-[300px] md:h-[400px] lg:w-[500px] lg:h-[500px]">
           <img src="/img/macProjectjpg.jpg" alt="mac" className="w-full h-full object-cover rounded-md" />
         </figure>
       </div>

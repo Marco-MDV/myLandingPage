@@ -12,8 +12,8 @@ export default function SectionTwo({observe, isActive}) {
           className="h-full w-full object-cover"
         />
       </figure>
-      <div className="flex flex-col justify-center items-start gap-3 text-left px-2 md:px-0 ">
-        <h2 className="text-white text-7xl md:text-7xl font-bold font-mono ">
+      <div className="flex flex-col justify-center items-start gap-2 md:gap-3 text-left px-2 md:px-0 ">
+        <h2 className="text-white text-5xl md:text-7xl font-bold font-mono ">
           Who I am
         </h2>
         <p className="text-white font-mono text-base md:text-lg">
