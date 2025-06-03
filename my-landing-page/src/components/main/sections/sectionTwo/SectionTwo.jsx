@@ -14,7 +14,7 @@ export default function SectionTwo({observe, isActive}) {
       </figure>
       <div className="flex flex-col justify-center items-start gap-2 md:gap-3 text-left px-2 md:px-0 ">
         <h2 className="text-white text-5xl md:text-7xl font-bold font-mono ">
-          Who I am
+          About me
         </h2>
         <p className="text-white font-mono text-base md:text-lg">
           My name is Marco De Vincentiis, and I am a professional with experience in software development, cloud computing, and cyber security. Since 2021, I have been helping companies and individuals optimize processes, improve security, and achieve concrete results in financial markets.

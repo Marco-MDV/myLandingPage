@@ -1,4 +1,3 @@
-import React from "react";
 import Contacts from "./contacts/Contacts";
 
 export default function SectionSeven({observe, isActive}) {

@@ -7,7 +7,7 @@ const companies = [
     link: "https://www.capgemini.com/it-it/",
   },
   {
-    name: "Epciode",
+    name: "Epicode",
     logo: "/img/logoEpicode.png",
     link: "https://epicode.com/it/",
   },
