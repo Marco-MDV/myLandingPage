@@ -3,7 +3,7 @@ import Contacts from "./contacts/Contacts";
 
 export default function SectionSeven({observe, isActive}) {
   return (
-    <section ref={observe} className="w-full relative h-svh snap-start flex justify-center md:justify-between items-start md:items-center flex-col md:flex-row px-5 gap-5 md:gap-20 bg-black">
+    <section ref={observe} className="w-full relative min-h-screen snap-start flex justify-center md:justify-between items-start md:items-center flex-col md:flex-row px-5 gap-5 md:gap-20 bg-black">
       <div className="flex flex-col items-start justify-center gap-5 md:gap-10 w-full md:w-1/2 h-full">
         <h3 className={`text-white text-start text-5xl md:text-6xl lg:text-7xl font-bold font-mono ${isActive?" animate-fade-up ":""}`}>
           Let's work <br /> together
