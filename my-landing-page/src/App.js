@@ -2,6 +2,7 @@ import "./App.css";
 import MyMain from "./components/main/MyMain";
 import MyNavbar from "./components/navbar/MyNavbar";
 import MyFooter from "./components/footer/MyFooter"
+import { Analytics } from '@vercel/analytics/react';
 import { useEffect, useRef, useState } from "react";
 function App() {
   const sectionOneRef = useRef(null)
@@ -27,6 +28,7 @@ function App() {
       {showNavbar && <MyNavbar/>}
       <MyMain sectionOneRef={sectionOneRef}/>
       <MyFooter/>
+      <Analytics />
     </div>
   );
 }
